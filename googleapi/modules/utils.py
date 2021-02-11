@@ -53,6 +53,7 @@ def _get_search_url(query, page=0, per_page=10, lang='en', area='com', ncr=False
 
     time_mapping = {
         'hour': 'qdr:h',
+        'day': 'qdr:d',
         'week': 'qdr:w',
         'month': 'qdr:m',
         'year': 'qdr:y'
